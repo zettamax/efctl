@@ -36,7 +36,9 @@ make run      # launches efctl
 3. Double-click `setup.bat` — installs everything
 4. Double-click `run.bat` — launches efctl
 
-On first launch you'll be asked for your EcoFlow User ID — grab it from the EcoFlow app or at https://gnox.github.io/user_id.
+On first launch you'll be asked for your EcoFlow User ID. You can find it by:
+- Logging into [ecoflow.com](https://www.ecoflow.com/) and checking the `ef_uid` cookie in your browser
+- Or using [gnox.github.io/user_id](https://gnox.github.io/user_id) (third-party, not affiliated with this project)
 
 ## What it does
 
