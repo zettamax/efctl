@@ -17,7 +17,7 @@ from bleak import BleakClient
 from bleak.backends.characteristic import BleakGATTCharacteristic
 from bleak.backends.device import BLEDevice
 from bleak.exc import BleakError
-from bleak_retry_connector import (
+from ._ble_compat import (
     MAX_CONNECT_ATTEMPTS,
     BleakNotFoundError,
     establish_connection,
